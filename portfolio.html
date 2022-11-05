@@ -25,27 +25,37 @@
               <a href="./index.html" class="nav-link link"> Студія </a>
             </li>
             <li class="nav-item">
-              <a href="./portfolio.html" class="nav-link current link"> Портфоліо </a>
+              <a href="./portfolio.html" class="nav-link current link">
+                Портфоліо
+              </a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link link"> Контакти </a>
             </li>
           </ul>
         </nav>
-      
+
         <!-- Контакти -->
         <div class="header-group">
-          <a href="mailto:info@devstudio.com" class="header-contact link"
-                >info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="header-contact link">
+            <svg class="header-icons" width="16px" height="12px">
+              <use href="./images/icons.svg#envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
           <a href="tel:+380961111111" class="header-contact link">
-                +38 096 111 11 11</a>
+            <svg class="header-icons" width="10px" height="16px">
+              <use href="./images/icons.svg#smartphone"></use>
+            </svg>
+            +38 096 111 11 11
+          </a>
         </div>
       </div>
     </header>
 
     <main class="main-page">
       <!-- скритий текст -->
-      <h1 class="invisible-text">ПОРТФОЛИО</h1>
+      <h2 class="visually-hidden">ПОРТФОЛИО</h2>
       <!-- секція фільтров -->
       <section class="filters section">
         <div class="filters-page container">
@@ -66,9 +76,8 @@
               <button type="button" class="btn-filter">Маркетинг</button>
             </li>
           </ul>
-        
-        
-        <!-- Галерея -->
+
+          <!-- Галерея -->
           <ul class="gallery-page grid-list list">
             <li class="gallery-item grid-item">
               <a href="" class="gallery-link link">
@@ -81,7 +90,7 @@
                 <div class="gallery-container">
                   <h2 class="gallery-title">Технокряк</h2>
                   <p class="gallery-list">Веб-сайт</p>
-                </div> 
+                </div>
               </a>
             </li>
             <li class="gallery-item grid-item">
@@ -93,9 +102,11 @@
                   height="294"
                 />
                 <div class="gallery-container">
-                  <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
+                  <h2 class="gallery-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
                   <p class="gallery-list">Дизайн</p>
-                </div>  
+                </div>
               </a>
             </li>
             <li class="gallery-item grid-item">
@@ -109,7 +120,7 @@
                 <div class="gallery-container">
                   <h2 class="gallery-title">Ресторан Seafood</h2>
                   <p class="gallery-list">Додаток</p>
-                </div>  
+                </div>
               </a>
             </li>
             <li class="gallery-item grid-item">
@@ -123,7 +134,7 @@
                 <div class="gallery-container">
                   <h2 class="gallery-title">Проєкт Prime</h2>
                   <p class="gallery-list">Маркетинг</p>
-                </div>  
+                </div>
               </a>
             </li>
             <li class="gallery-item grid-item">
@@ -137,7 +148,7 @@
                 <div class="gallery-container">
                   <h2 class="gallery-title">Проєкт Boxes</h2>
                   <p class="gallery-list">Додаток</p>
-                </div>  
+                </div>
               </a>
             </li>
             <li class="gallery-item grid-item">
@@ -151,7 +162,7 @@
                 <div class="gallery-container">
                   <h2 class="gallery-title">Inspiration has no Borders</h2>
                   <p class="gallery-list">Веб-сайт</p>
-                </div>  
+                </div>
               </a>
             </li>
             <li class="gallery-item grid-item">
@@ -165,7 +176,7 @@
                 <div class="gallery-container">
                   <h2 class="gallery-title">Видання Limited Edition</h2>
                   <p class="gallery-list">Дизайн</p>
-                </div>  
+                </div>
               </a>
             </li>
             <li class="gallery-item grid-item">
@@ -179,7 +190,7 @@
                 <div class="gallery-container">
                   <h2 class="gallery-title">Проєкт LAB</h2>
                   <p class="gallery-list">Маркетинг</p>
-                </div>  
+                </div>
               </a>
             </li>
             <li class="gallery-item grid-item">
@@ -193,7 +204,7 @@
                 <div class="gallery-container">
                   <h2 class="gallery-title">Growing Business</h2>
                   <p class="gallery-list">Додаток</p>
-                </div>  
+                </div>
               </a>
             </li>
           </ul>
@@ -202,33 +213,68 @@
     </main>
 
     <!-- Нижня частина ФУТЕР -->
-    <footer class="footer-sections section">
-      <div class="footer-container container">
-        <a href="./index.html" class="footer-logo link">
-          Web<span class="logo-footer">Studio</span>
-        </a>
-        <address class="footer-address">
-          <ul class="footer-info list">
-            <li class="footer-item">
-              <a
-                href="https://goo.gl/maps/VrcMHXhKriwRzs2d6"
-                class="address-map link"
-              >
-                м. Київ, пр-т Лесі Українки, 26
+    <footer class="footer-sections">
+      <div class="footer-general container">
+        <div class="footer-container">
+          <a href="./index.html" class="footer-logo link">
+            Web<span class="logo-footer">Studio</span>
+          </a>
+          <address class="footer-address">
+            <ul class="footer-info list">
+              <li class="footer-item">
+                <a
+                  href="https://goo.gl/maps/VrcMHXhKriwRzs2d6"
+                  class="address-map link"
+                >
+                  м. Київ, пр-т Лесі Українки, 26
+                </a>
+              </li>
+              <li class="footer-item">
+                <a href="mailto:info@devstudio.com" class="footer-contact link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a href="tel:+380961111111" class="footer-contact link"
+                  >+38 096 111 11 11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-socials-sections">
+          <h2 class="footer-socials-title">ПРИЄДНУЙТЕСЬ</h2>
+          <ul class="footer-socials-list list">
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link link">
+                <svg class="footer-icon" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
               </a>
             </li>
-            <li class="footer-item">
-              <a href="mailto:info@devstudio.com" class="footer-contact link"
-                >info@devstudio.com</a
-              >
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link link">
+                <svg class="footer-icon" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a href="tel:+380961111111" class="footer-contact link"
-                >+38 096 111 11 11
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link link">
+                <svg class="footer-icon" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-socials-item">
+              <a href="" class="footer-socials-link link">
+                <svg class="footer-icon" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
               </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
