@@ -9,7 +9,8 @@ p {
     margin: 0;
 }
 
-
+/* для иконок соц сетей, чтобы переходили на сайт
+<a href="" aria-label="Instagram" target="_blank" rel="noopener noreferrer"> */
 
 /* убираем точечки и подчеркивание. Та зовнішній відступ, внутр паддінг */
 .list {
@@ -104,10 +105,14 @@ body {
     margin-right: 93px;
 }
 
+.header-icons {
+    fill: currentColor;
+}
+
 .logo-header {
     color: var(--font-logo-second);
 }
-
+ 
 /* Навигация */
 
 .header-nav {
@@ -157,6 +162,9 @@ body {
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .header-contact:hover,
@@ -293,6 +301,8 @@ body {
 .team-job-title {
     background-color: var(--background-color-weite);
     
+    width: 270px;
+    height: 428px;
 }
 
 /* заглавие */
@@ -334,7 +344,45 @@ body {
     line-height: calc(19 / 16);
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
+    
 }
+
+.socials-team {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+}
+
+
+/* цвет иконки соцсети */
+.socials-link {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #AFB1B8;
+   
+    
+}
+
+.socials-link:hover,
+.socials-link:focus {
+    background-color: #2196F3;
+    border-radius: 50%;
+    fill: #FFFFFF;
+    
+}
+
+
+
+
+
+
 
 /* -----------------------------Нижня частина ФУТЕР--------------------- */
    
