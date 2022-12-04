@@ -154,6 +154,9 @@ body {
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
+
+
+
 }
 .current {
     color: var(--button-color-web-second);
@@ -336,7 +339,34 @@ body {
 }
 .servise-section:not( :last-child ){
     margin-right: 30px;
+    /* //// */
+    position: relative;
 }
+
+/* ////////////////////////////////////////////// */
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+    backdrop-filter: blur(2px);
+}
+
+.overlay-text {
+    color: #FFFFFF;
+    
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* ////////////////////////////////////////////// */
 
 .services-title {
     color: var(--color-font-h2-h3-name);
